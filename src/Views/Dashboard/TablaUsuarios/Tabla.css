@@ -1,0 +1,21 @@
+.react-grid-Cell {
+    border: none;
+  }
+
+.MuiDataGrid-root  {
+    border: none !important;
+}
+
+.MuiDataGrid-cell{
+    color:rgb(46, 42, 42);
+    
+}
+
+.super-app-theme--header :hover {
+    color: green;
+}
+
+
+/* .custom-row-class :hover{
+    background-color: rgb(67, 68, 68);
+} */

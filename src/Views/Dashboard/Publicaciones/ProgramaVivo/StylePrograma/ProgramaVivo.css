@@ -1,0 +1,141 @@
+
+  
+  .tag {
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+  }
+  
+  .tag-primary {
+    color: black;
+    background-color: #36f7ed;
+  }
+  
+  .wrapperPrograma {
+    padding: 26px 0;
+  }
+  
+ /*  .wrapperPrograma-light {
+    background: #026bb15d;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+  }
+   */
+  .cardPrograma-h {
+    scroll-snap-align: center;
+    background: white;
+    width: 240px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cardPrograma-h .cardPrograma-thumbnail {
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cardPrograma-h .cardPrograma-thumbnail img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cardPrograma-h .cardPrograma-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .cardPrograma-h .cardPrograma-body {
+    padding: 14px 20px 0;
+    flex: 1;
+  }
+  .cardPrograma-h .cardPrograma-foot {
+    padding: 0 20px 14px 20px;
+  }
+  .cardPrograma-h .cardPrograma-title {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    white-space: normal;
+    margin-bottom: 6px;
+    max-height: 52px;
+  }
+  .cardPrograma-h .cardPrograma-name {
+    max-height: 42px;
+    line-height: 16px;
+  }
+  .cardPrograma-h .cardPrograma-rating {
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .cardPrograma-h .cardPrograma-rating .stars {
+    margin-top: -2px;
+    margin-right: 10px;
+  }
+  .cardPrograma-h .cardPrograma-specialties {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 14px 20px 14px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .cardPrograma-h:hover .cardPrograma-specialties{
+    background: linear-gradient(to top, rgba(5, 150, 175, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .scrollable-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 992px) {
+    .scrollable-container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .scrollable-container {
+      max-width: 1140px;
+    }
+  }
+  
+  .scrollable-cardProgramas {
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    display: flex;
+    overflow-x: scroll;
+    display: flex;
+    padding: 5px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scrollable-cardProgramas .cardPrograma-h {
+    flex-shrink: 0;
+    margin: 5px 5px;
+  }
+  .scrollable-cardProgramas .cardPrograma-h:last-child {
+    border-right: 10px solid #F6F6F6;
+  }
+  
+  @media (min-width: 992px) {
+    .scrollable-cardProgramas {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px/2 0;
+    }
+    .scrollable-cardProgramas .cardPrograma-h {
+      flex: 0 0 calc(25% - 10px);
+    }
+    .scrollable-cardProgramas .cardPrograma-h:last-child {
+      border-right: 0;
+    }
+  }

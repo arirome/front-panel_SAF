@@ -1,0 +1,26 @@
+.tarjetaContainer{
+  cursor: pointer;
+  text-align: center;
+
+  border-radius: 20px;
+}
+.tarjetaContainer .card-body:hover{
+
+  cursor: pointer;
+  border-radius: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.linkPagina{
+  
+  border-radius: 20px;
+}
+
+.texto-card-punto{
+  color: rgb(255, 255, 255);
+ text-shadow: 5px 5px 5px rgb(0, 0, 0);
+ text-decoration: none;
+}
+
+.card-punto-select{
+  border-radius: 20px;
+}

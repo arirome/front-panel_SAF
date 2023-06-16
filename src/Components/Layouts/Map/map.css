@@ -1,0 +1,49 @@
+.leaflet-container {
+    margin: 2px auto;
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+    border: 2px solid #333;
+    overflow: hidden;
+  }
+
+.marker-position {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fff;
+  }
+ 
+  
+  .marker-click {
+    text-decoration: none;
+    color: red;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+  }
+  
+  /* legend  */
+  .legend {
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .legend .row {
+    display: flex;
+    line-height: 30px;
+  }
+  
+  .legend i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  

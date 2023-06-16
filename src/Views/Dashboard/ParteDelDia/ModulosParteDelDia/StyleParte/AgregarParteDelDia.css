@@ -1,0 +1,82 @@
+/* .cardParteProducto{
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+     
+    background-color: #fff;
+  }
+  
+  
+  
+  .stats{
+  
+        background: #f2f5f8 !important;
+  
+      color: #000 !important;
+  }
+  .articles{
+    font-size:10px;
+    color: #a1aab9;
+  }
+  .number1{
+    font-weight:500;
+  }
+  .followers{
+      font-size:10px;
+    color: #a1aab9;
+  
+  }
+  .number2{
+    font-weight:500;
+  }
+  .rating{
+      font-size:10px;
+    color: #a1aab9;
+  }
+  .number3{
+    font-weight:500;
+  } */
+
+.ImgPortadaProducto {
+  width: 88px;
+  border-radius: 10px;
+}
+
+.nroFamiliaInput{
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.textoNota{
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.nombrePunto{
+  color: rgb(2, 84, 87);
+  text-decoration:underline
+}
+
+.cambioInicial{
+  cursor: pointer;
+}
+
+.tarjetaProductoDistribuidor{
+  border: 1px solid rgba(0, 0, 0, 0.299);
+}
+
+.formularioStockProducto .form-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.form-row input {
+  width: 90%;
+  height: 30px;
+
+}

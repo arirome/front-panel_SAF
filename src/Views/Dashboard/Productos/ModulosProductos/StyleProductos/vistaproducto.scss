@@ -1,0 +1,50 @@
+.singleContainerProducto {
+    width: 50%;
+    margin: auto;
+  
+      .rowProfileProducto{
+       
+        .imagen-perfil{
+          padding: 2%;
+        }
+  
+        .info-debajo-imagen{
+          align-items: center;
+          .info{
+           text-align: center;
+          }
+          .name{
+            text-align: center;
+          }
+        }
+  
+        .info-perfil{
+          margin: auto;
+          padding: 3%;
+         
+        }
+  
+        .label-info{
+          color: #777;
+        }
+        .info{
+          color: black;
+          font-weight: bold;
+        }
+        .contenedor-infoProducto{
+          margin-top: 2%;
+          border-radius: 20px;
+          background-color: white;
+          width: 100%;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          .title-perfilProducto{
+            text-align: center;
+            color:#4267b2;
+            font-weight: bold;
+            margin-top: 2%;
+  
+          }
+        }
+      }
+  
+    }
